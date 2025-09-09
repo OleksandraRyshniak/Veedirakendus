@@ -1,0 +1,189 @@
+header{
+    background-color: bisque;
+    letter-spacing: 0.1cm;
+    padding: 0.5%;
+    font-variant:small-caps;
+    font-family: "Bodoni MT Black", sans-serif;
+    font-size: x-large;
+    background-image: url('pild.png');
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+header h1{
+    margin-left: 150px;
+}
+img{
+    width: 100px;
+}
+footer{
+    background-color: bisque;
+    border-top: 2px solid black;/*dotted, dashed, double*/
+    padding: 1%;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+section#osa1{
+    display: inline-block;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 50%;
+    border-radius: 60px;
+    padding: 2%;
+}
+#osa2{
+    display: inline-block;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 30%;
+    border-radius: 60px;
+    padding: 2%;
+    text-align: center;
+}
+section#osa1 h2{
+    background-color: bisque;
+    padding: 2%;
+}
+#osa2 h2 {
+    letter-spacing: 0.5mm;
+    background-color: bisque;
+    font-variant:small-caps;
+    font-size: x-large;
+}
+#osa1 div{
+    padding:1%;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    margin: 10px;
+    padding: 2px;
+    background-color: white;
+    overflow: hidden; /*peidetud*/
+    display: flex;
+    justify-content: right;
+}
+nav ul li{
+    float: left;
+    border: 1px solid black;
+    background-color:bisque ;
+    border-radius: 20px;
+}
+nav ul li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-variant:small-caps;
+    text-decoration: none;
+}
+nav ul li a:hover/*fookuses--hiir on peal*/{
+    background-color: white;
+    border-radius: 20px;
+}
+
+#osa3 h2{
+    letter-spacing: 0.5mm;
+    width: 100px;
+    font-variant:small-caps;
+    font-size: x-large;
+    background-color: bisque;
+    border: 1px solid bisque;
+    border-radius: 20px;
+    margin: 3px;
+    padding: 7px;
+}
+#osa4 h2{
+    letter-spacing: 0.5mm;
+    width: 100px;
+    font-variant:small-caps;
+    font-size: x-large;
+    background-color: bisque;
+    border: 1px solid bisque;
+    border-radius: 20px;
+    margin: 3px;
+    padding: 7px;
+}
+#osa3{
+    display: inline-block;
+    margin: 7px;
+}
+#osa4{
+    display: inline-block;
+    margin: 7px;
+}
+#osa4  ol li a {
+    display: block;
+    color: black;
+    font-variant: small-caps;
+}
+#osa4 ol li a:hover{
+    color: blue;
+    border-radius: 20px;
+}
+
+#osa5 h2{
+    letter-spacing: 0.5mm;
+    width: 300px;
+    font-variant:small-caps;
+    font-size: x-large;
+    background-color: bisque;
+    border: 1px solid bisque;
+    border-radius: 20px;
+    margin: 3px;
+    padding: 7px;
+}
+#osa6 h2{
+    letter-spacing: 0.5mm;
+    width: 200px;
+    font-variant:small-caps;
+    font-size: x-large;
+    background-color: bisque;
+    border: 1px solid bisque;
+    border-radius: 20px;
+    margin: 3px;
+    padding: 7px;
+}
+#osa5{
+    display: inline-block;
+    margin: 7px;
+}
+#osa6{
+    display: inline-block;
+    margin: 7px;
+}
+#osa5  ul li a {
+    display: block;
+    color: black;
+    font-variant: small-caps;
+}
+#osa5 ul li a:hover{
+    color: blue;
+    border-radius: 20px;
+}
+#osa7 h2{
+    letter-spacing: 0.5mm;
+    width: 100px;
+    font-variant:small-caps;
+    font-size: x-large;
+    background-color: bisque;
+    border: 1px solid bisque;
+    border-radius: 20px;
+    margin: 3px;
+    padding: 7px;
+}
+#osa7 div{
+    display: inline-block;
+    margin: 3px;
+}
+#osa7 div a {
+    display:inline-block;
+    color: black;
+    font-variant: small-caps;
+}
+#osa7 div a:hover{
+    color: blue;
+    border-radius: 20px;
+}
